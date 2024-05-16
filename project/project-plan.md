@@ -13,17 +13,20 @@ This project seeks to provide actionable insights to individuals applying for cr
 ## Datasources
 Metadata URL: https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction
 
+
 Data Source1: application_record
 
 Data Source1 URL: https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction?select=application_record.csv
 
 Data Type: CSV
 
+
 Data Source2: credit_record
 
 Data Source2 URL: https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction?select=credit_record.csv
 
 Data Type: CSV
+
 
 I am going to use two datasets, 'application_record' that contains the data about the credit card applications and 'credit_record' that contains the data about the credit record of the people. The two datasets are connected based on the person ID.
 
