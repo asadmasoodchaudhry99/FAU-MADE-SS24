@@ -1,35 +1,34 @@
 # Project Plan
 
 ## Title
-<!-- Give your project a short title. -->
-Awesome MADE project.
+Credit Card Applicants: Insights to Avoid Rejection
 
 ## Main Question
-
-<!-- Think about one main question you want to answer based on the data. -->
-1. Does writing an example question help students write better project plans?
+1. What are the main reasons for credit card application rejection and what measures can be taken to avoid a rejection?
 
 ## Description
 
-<!-- Describe your data science project in max. 200 words. Consider writing about why and how you attempt it. -->
-XY is an important problem, because... This projects analyzes XY, using method A. The results can give insights into...
+This project seeks to provide actionable insights to individuals applying for credit cards, helping them understand the factors that contribute to rejection and improve their chances of approval. By analyzing historical credit card application data, I aim to identify common reasons for rejection and provide recommendations to applicants.
 
 ## Datasources
+Metadata URL: https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction
 
-<!-- Describe each datasources you plan to use in a section. Use the prefic "DatasourceX" where X is the id of the datasource. -->
+Data Source1: application_record
+Data Source1 URL: https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction?select=application_record.csv
+Data Type: CSV
 
-### Datasource1: ExampleSource
-* Metadata URL: https://mobilithek.info/offers/-6901989592576801458
-* Data URL: https://raw.githubusercontent.com/od-ms/radverkehr-zaehlstellen/main/100035541/2019-01.csv
-* Data Type: CSV
+Data Source2: credit_record
+Data Source2 URL: https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction?select=credit_record.csv
+Data Type: CSV
 
-Short description of the DataSource.
+I am going to use two datasets, 'application_record' that contains the data about the credit card applications and 'credit_record' that contains the data about the credit record of the people. The two datasets are connected based on the person ID.
 
 ## Work Packages
 
-<!-- List of work packages ordered sequentially, each pointing to an issue with more details. -->
-
-1. Example Issue [#1][i1]
-2. ...
-
-[i1]: https://github.com/jvalue/made-template/issues/1
+1. Find useful open data sources.
+2. Data Collection and Preprocessing : This involves downloading and preprocessing the datasets.
+3. Build data pipeline.
+4. Clean and explore data.
+5. Analyze dataset and identify correlations : Finding correlation.
+6. Build data pipelines.
+7. Visualization: This involves creating visualizations to communicate the findings of the analysis.
