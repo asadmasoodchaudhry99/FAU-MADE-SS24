@@ -25,7 +25,6 @@ pipeline TreesPipeline {
             "stadtteil" oftype FurthValues,
             "standort" oftype text,
             "baumart_botanisch" oftype text,
-            "baumart_deutsch" oftype text,
             "id" oftype text,
             "baumfamilie" oftype text
 
@@ -33,7 +32,6 @@ pipeline TreesPipeline {
     }
 
     valuetype FurthValues oftype text {
-    // 10. Valuetypes can be further refined by providing constraints.
     constraints: [
         OnlyFurthValues 
     ];
