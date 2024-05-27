@@ -1,32 +1,25 @@
 # Project Plan
 
 ## Title
-Credit Card Applicants: Insights to Avoid Rejection
+Investigating the Relationship between Agricultural Production and Climate Change Over the Years
 
 ## Main Question
-1. What are the main reasons for credit card application rejection and what measures can be taken to avoid a rejection?
+1. What is the relation between the Agricultural Production and Climate Change over the years?
 
 ## Description
 
-This project seeks to provide actionable insights to individuals applying for credit cards, helping them understand the factors that contribute to rejection and improve their chances of approval. By analyzing historical credit card application data, I aim to identify common reasons for rejection and provide recommendations to applicants.
+This project seeks to provide actionable insights into the relationship between agricultural production and climate change over the years. By analyzing historical data on climate change indicators and agricultural production metrics, I aim to identify the effect of climate factors on crop yields and production volumes. This analysis will help farmers, policymakers, and stakeholders understand the impact of climate change on agriculture and develop strategies to enhance agricultural resilience and productivity in the face of changing climate conditions.
 
 ## Datasources
-Metadata URL: https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction\
 
-Data Source1: application_record
-
-Data Source1 URL: https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction?select=application_record.csv
-
+Data Source1: GlobalLandTemperaturesByCountry
+Data Source1 URL: https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByCountry.csv
 Data Type: CSV
 
-Data Source2: credit_record
-
-Data Source2 URL: https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction?select=credit_record.csv
-
+Data Source2: AgriculturalProduction
+Data Source2 URL: https://ourworldindata.org/agricultural-production
 Data Type: CSV
 
-
-I am going to use two datasets, 'application_record' that contains the data about the credit card applications and 'credit_record' that contains the data about the credit record of the people. The two datasets are connected based on the person ID.
 
 ## Work Packages
 
