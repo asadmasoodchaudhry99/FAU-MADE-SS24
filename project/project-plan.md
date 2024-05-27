@@ -13,11 +13,15 @@ This project seeks to provide actionable insights into the relationship between 
 ## Datasources
 
 Data Source1: GlobalLandTemperaturesByCountry
+
 Data Source1 URL: https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByCountry.csv
+
 Data Type: CSV
 
 Data Source2: AgriculturalProduction
+
 Data Source2 URL: https://ourworldindata.org/agricultural-production
+
 Data Type: CSV
 
 
